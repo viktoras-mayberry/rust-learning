@@ -1,0 +1,23 @@
+# Rust build
+/target/
+**/target/
+
+# IDE files
+/.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.tmp
+
+# By default, Cargo.lock is ignored for libraries, but included for binaries
+# Uncomment if you want to ignore Cargo.lock for all projects
+# Cargo.lock
